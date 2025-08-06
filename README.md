@@ -78,10 +78,9 @@ This project includes:
 ├── 🧾 sql/
 │   └── data_sampling.sql
 └── README.md
-
+```
 ---
-
-## Data Sampling Query
+## 🧠 Data Sampling Query
 
 ```
 WITH base_data AS (
