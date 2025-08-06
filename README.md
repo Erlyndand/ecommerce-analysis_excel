@@ -82,6 +82,7 @@ This project includes:
 
 ## Data Sampling Query
 
+```
 WITH base_data AS (
   SELECT 
       o.order_id,
