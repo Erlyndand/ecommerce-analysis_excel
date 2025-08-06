@@ -64,6 +64,7 @@ This project includes:
 ---
 
 ## 📁 Folder Structure
+```
 📦 Klyre-Ecommerce-Project
 ├── 📊 dashboard/
 │   └── klyre_dashboard.jpg
