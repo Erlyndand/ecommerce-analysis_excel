@@ -80,8 +80,7 @@ This project includes:
 
 ---
 
-## 🧠 Data Sampling Query
-
+## Data Sampling Query
 
 WITH base_data AS (
   SELECT 
@@ -92,6 +91,7 @@ WITH base_data AS (
       o.shipped_at AS shipped_date,
       o.delivered_at AS delivered_date,
       o.returned_at AS returned_date,
+
       oi.product_id,
       p.category AS product_category,
       p.brand AS product_brand,
@@ -138,4 +138,3 @@ FROM (
 )
 WHERE row_num <= 7500
 ORDER BY order_year, row_num;
-
